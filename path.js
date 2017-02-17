@@ -1,4 +1,4 @@
-
+//Your code below
 function buildPath(p,n){
 let path=[]
 for(var i=0;i<n;i++){
@@ -40,7 +40,7 @@ return rsj(a,c+1)+rsj(a,c+2)+rsj(a,c+5)
 }
 }
 
-
+//Test code
 let testpath1 = buildPath(0.10,15);
 let testpath2 = buildPath(0.50,15);
 console.log(testpath1);
